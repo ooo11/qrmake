@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "title": "ClassName",
+  "description": "The ClassName JSON document.",
+  "required": ["name", "primary", "users_id"],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id of an item."
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The name of the class."
+    },
+    "primary": {
+      "$id": "#/properties/primary",
+      "type": "string",
+      "title": "The primary of the class."
+    },
+    "users_id": {
+      "$id": "#/properties/users_id",
+      "type": "number",
+      "title": "The id for teachers."
+    },
+    "created_at": {
+      "$id": "#/properties/created_at",
+      "type": "string",
+      "title": "The creation date of the class."
+    },
+    "updated_at": {
+      "$id": "#/properties/updated_at",
+      "type": "string",
+      "title": "The date the class last updated."
+    }
+  },
+  "additionalProperties": false
+}
